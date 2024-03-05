@@ -1,0 +1,205 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "DM Sans", sans-serif;
+}
+
+nav{
+    background-color: #f4eeee;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 75px;
+    height: 40px;
+}
+nav >.center{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+nav >.center >a{
+    text-decoration: none;
+    color: black;
+}
+
+#textpage{
+    background-color: #f4eeee;
+    height: 100vh;
+}
+#textpage > h1{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 45px;
+}
+#textpage > p{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    color: gray;
+    text-shadow: #1f1e2c;
+}
+#textpage > button{
+    background-color: #1f1e2c;
+    color: #f4eeee;
+    border: none;
+    border-radius: 3px;
+    width: 17%;
+    height: 2rem;
+    margin-left: 630px;
+    margin-top: 20px;
+}
+#textpage > .or{
+    color: gray;
+    padding-top: 35px;
+    gap: 7px;
+}
+#textpage > .or > a{
+    color: gray;
+}
+#imgsection{
+    background-color : #1f1e2c;
+    height: 100vh;
+    /* width: 100%; */
+}
+#imgsection > .four{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+#imgsection > .four >.img1{
+    margin-top: -150px;
+    height: 370px;
+}
+#imgsection > .four >.img2{
+    margin-top: -200px;
+    height: 370px;
+}
+
+.logo{
+    width: 100%;
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo > img{
+    /* color: white; */
+    width: 100px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    gap: 10px;
+}
+#imgsection > p{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#imgsection > hr{
+    color: white;
+    margin-top: 50px;
+}
+#pass{
+    margin-top: -25px;
+    background-color: #1f1e2c;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+#pass > div{
+    margin-top: -150px;
+    font-family: "Vollkorn", serif;
+    font-style: italic;
+    font-weight: 200;
+}
+#pass > div > h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Vollkorn", serif;
+    font-style: italic;
+    font-weight: 200;
+}
+#pass > div > h2{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+#pass > div > p{
+    display: flex;
+    justify-content: center;
+    text-decoration-style: solid;
+    margin-top: -10px;
+}
+#style{
+    display: flex;
+    justify-content: center;
+    background-color: #1f1e2c;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#style > button{
+    background-color: #f4eeee;
+    color: #1f1e2c;
+    border: none;
+    border-radius: 3px;
+    width: 17%;
+    height: 2rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bolder;
+}
+
+#storypage{
+    background-color: #f4eeee;
+    display: flex;  
+    height: 100vh; 
+    width: 100%;
+}
+
+#storypage >div > img{
+    width: 150%;
+    height: 100%;
+}
+#storypage >.story{
+    font-family: "DM Sans", sans-serif;
+    color: black;
+    padding-left: 385px;
+    margin-top: 200px;
+}
+#storypage >.story > h1{
+    font-size: 35px;
+    font-family: "Dancing Script", cursive;
+}
+#storypage >.story > p{
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+}
+#storypage >.story > a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: 900;
+}
+#details {
+    background-color: #1f1e2c;
+    display: flex;
+    justify-content: left;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+#details >nav{
+    background-color: #1f1e2c;
+    text-decoration: none;
+    color: #f4eeee;
+}
+#details >nav >a{
+    color: #f4eeee;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 900;
+}
+
+
+
